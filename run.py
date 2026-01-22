@@ -20,7 +20,7 @@ def run_notebook(ipynb_path: Path, out_path: Path, timeout=1200):
 def main():
     print("▶ rtf_txt.ipynb 실행 중…")
     run_notebook(RTF_NOTEBOOK, BASE / "rtf_txt_executed.ipynb")
-    print("✓ rtf_txt.ipynb 완료")
+    print("✓ rtf_txt.ipynb 완료!")
 
     print("▶ word.py 실행 중…")
     subprocess.run([sys.executable, str(WORD_SCRIPT)], check=True)
