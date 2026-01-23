@@ -15,7 +15,7 @@ pdf_filename = "report.pdf"
 try:
     with open(txt_filename, "r", encoding="utf-8") as f:
         data_dict = json.load(f)
-    print(f"'{txt_filename}'에서 데이터를 성공적으로 불러왔습니다.")
+    print(f"'{txt_filename}'에서 데이터를 성공적으로 불러왔습니다!")
 
     date = data_dict.get("날짜", "날짜 없음")
     if "날짜" in data_dict:
