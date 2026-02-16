@@ -1,6 +1,7 @@
 *.txt
 *.pdf
 *.docx
+*.doc
 .venv/
 venv/
 __pycache__/
